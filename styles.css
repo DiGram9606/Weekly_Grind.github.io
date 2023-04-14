@@ -1,46 +1,64 @@
 h1{
-    text-align: center;
-    font-family: 'Cute Font', cursive;
-    font-size: 120px;
-    
+  text-align: center;
+  font-family: 'Cute Font', cursive;
+  font-size: 120px;
+  color: rgb(238 77 109);
+  margin-top: -3px;
+  margin-bottom: 150px;
 }
 
 
 .center{
-    margin-left: auto; 
-    margin-right: auto;
-  }
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  table, th, td {
-    border:2.5px solid black;
-  }
-  
-  th,td{
-      padding:10px;
-  }
+table, th, td {
+  /* border: 2.5px solid black; */
+  border-radius: 8px;
+}
 
-  td{
-   
-  padding: 5px;
-  font-size: 1.5rem;
-  text-shadow: 0px 0px 5px rgb(182, 6, 47);
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bolder;
-    background-color: rgba(255, 255, 255, 0.75);
-  
- }
+th,td{
+    padding:10px;
+    border: hidden;
+    border-width: 5px;
+}
 
- th{padding: 5px;
-  font-size: 1.75rem;
-  text-shadow: 0px 0px 7px rgb(177, 18, 18);
-    text-align: center;
-    vertical-align: middle;
-    font-weight: bolder;
-    background-color: rgba(182, 6, 47, 0.2);
-    
-  
- }
+td{
+ 
+/* padding: 5px; */
+ 
+/* padding-top: 5px; */
+ 
+font-size: 1rem;
+ 
+/* text-shadow: 0px 0px 5px rgb(182, 6, 47); */
+ 
+text-align: center;
+ 
+/* vertical-align: middle; */
+ 
+font-weight: bolder;
+ 
+background-color: rgba(255, 255, 255, 0.65);
+ 
+text-transform: uppercase;
+ 
+font-family: courier;
+ 
+border-width: hidden;
+}
+
+th{
+padding: 17px;
+font-size: 1.25rem;
+/* text-shadow: 0px 0px 7px rgb(177, 18, 18); */
+text-align: center;
+vertical-align: middle;
+font-weight: bolder;
+background-color: rgb(255 200 210 / 61%);
+font-family: Courier;
+}
 
 #ctr{
 text-align: center;
@@ -48,10 +66,10 @@ color: palevioletred;
 }
 
 body{
-    background-image: url("https://cdn.imgchest.com/files/my8xc239l4l.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
+  background-image: url("https://cdn.imgchest.com/files/my8xc239l4l.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 
 }
 
@@ -73,6 +91,7 @@ body{
   font-weight: bold;
   font-family: 'Cute Font', cursive;
   font-size: 25px;
+  line-height: 1.75rem;
 
 
 }
@@ -92,9 +111,102 @@ body{
   font-weight: bold;
   font-family: 'Cute Font', cursive;
   font-size: 25px;
+  line-height: 1.77rem;
+
+
+}
+
+.Special{
+
+  visibility: hidden;
+ 
+
+}
+
+td:hover
+{
+  color: rgb(0, 0, 0) ; /* alt color rgb(252, 29, 29)*/ 
+  background-color: rgb(255 200 210 / 61%) ;
+}
+
+#button1:hover{
+
+  border-radius: 35px;
+  height: 32px;
+
+  background-color:  rgb(238, 139, 159) ;
+  float: right;
+  margin-top: -30px;
+}
+
+#fontbtn:hover{
+
+  color: rgb(148, 9, 111);
+  font-weight: bold;
+  font-family: 'Cute Font', cursive;
+  font-size: 25px;
+
+
+}
+
+#button2:hover{
+
+  border-radius: 35px;
+  height: 32px;
+  background-color: rgb(246, 246, 246);
+  float: left;
+  margin-top: -30px;
+}
+
+#fontbtn2:hover{
+
+  color:rgb(46, 29, 169) ;
+  font-weight: bold;
+  font-family: 'Cute Font', cursive;
+  font-size: 25px;
 
 
 }
 
 
+
+/*h1:hover{
+  content:o(*≧□≦)o ;  
+}
+
+button{
+  border: 10px;
+  text-align: center;
+  font-family: 'Cute Font', cursive;
+  font-size: 120px;
+  background-color: green;
+  margin-top: -3px;
+  margin-bottom: 150px;
+  border-radius: 50px;
+  height: 50px;
+  
+}
+
+#hid{
+  color: rgb(238 77 109);
+}
+
+button:hover{
+  content:o(*≧□≦)o ;
+
+}
+
+
+.comment {
+ display: none;
+}
+
+button:hover.replies {
+  display: none;
+}
+
+button:hover.comment {
+  display: inline;
+}
+*/
 
